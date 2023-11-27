@@ -10,8 +10,9 @@ int my_strlen(char *str) {
     return i;
 }
 
-int main() {
-    int len = my_strlen("Test!");
-    printf("%d", len);
-    return 0;
-}
+
+// UNCOMMENT FOR DEBUG AND TESTING
+// int main() {
+//     printf("%d", my_strlen("Test!"));
+//     return 0;
+// }
