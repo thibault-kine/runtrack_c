@@ -4,7 +4,9 @@ void my_putchar(char c) {
     write(1, &c, sizeof(char));
 }
 
-int main() {
-    my_putchar('a');
-    return 0;
-}
+
+// UNCOMMENT FOR DEBUG AND TESTING
+// int main() {
+//     my_putchar('a');
+//     return 0;
+// }
