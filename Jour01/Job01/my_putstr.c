@@ -5,12 +5,10 @@ void my_putchar(char c) {
 }
 
 void my_putstr(char *str) {
-    int i = 0;
     // Tant que le char actuel n'est pas le null terminator
-    while(str[i] != '\0') {
+    for(int i = 0; str[i] != '\0'; i++) {
         // Affiche le char actuel dans la chaine et incrémente pour passer à l'index suivant
         my_putchar(str[i]);
-        i++;
     }
 }
 
