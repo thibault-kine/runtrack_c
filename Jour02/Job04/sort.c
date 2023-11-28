@@ -31,8 +31,6 @@ char **sort(char **arr) {
         if(swapped == 0) break;
     }
 
-    res[size] = NULL;
-
     return res;
 }
 
