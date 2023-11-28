@@ -13,7 +13,7 @@ char *trim(char *src) {
     while(is_whitespace(*src)) src++; 
 
     // Si le caractère actuel est le null terminator, renvoie la chaîne
-    if(*src == 0) return src; 
+    if(*src == '\0') return src; 
 
     // Parcours la chaîne jusqu'à la fin
     int i = 0;
