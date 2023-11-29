@@ -13,7 +13,7 @@ int my_atoi(char *str) { // pointe vers un type char (chaine de char)
     
     for(int i = 0; str[i] != '\0'; i++) {
         if(str[i] == ' ') i++; // Si le char actuel est un espace, on skip
-        if(str[i] == '\n' || str[i] == '\t') break; // Si le char actuel est un line break ou un tab, on sors
+        if(str[i] == '\n' || str[i] == '\t' || str[i] == '\f' || str[i] == '\v' || str[i] == '\r') break; // Si le char actuel est un line break ou un tab, on sors
 
         // Assignation de 'sign', positif ou négatif, puis on incrémente pour passer au nombre
         if(str[i] == '+') {
