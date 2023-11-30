@@ -1,11 +1,11 @@
 #ifndef MANHATTAN_H
 #define MANHATTAN_H
 
-typedef struct point {
+typedef struct t_point {
     int x, y;
-} point;
+} t_point;
 
-int manhattan(point a, point b);
+int manhattan(t_point a, t_point b);
 
 int my_abs(int n);
 
